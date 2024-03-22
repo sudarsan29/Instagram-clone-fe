@@ -1,0 +1,52 @@
+.nav-header{
+    color: aqua;
+    margin-left: 5px;
+}
+.form-control-input{
+    width: 400px;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 350px;
+}
+.nav-house{
+    margin-left: 150px;
+    font-size: x-large;
+}
+.nav-heart{
+    font-size: x-large;   
+}
+.nav-user{
+    font-size: x-large;
+    margin-right: 80px;
+}
+.btn-outline{
+    margin-left: -63px;
+    border-radius: 10px;
+    background-color: pink;
+}
+.nav-glass{
+    display: none;
+}
+
+@media only screen and (max-width: 400px){
+    .nav-glass{
+        display: block;
+        margin-right: 180px;
+    }
+    .btn-outline, .form-control-input{
+        display: none;
+    } 
+    .nav-house{
+        margin-left: 190px;
+        margin-top: -50px;
+    }
+    .nav-heart{
+        margin-left: 20px;
+        margin-top: -50px;
+    }
+    .nav-user{
+        margin-left: 13px;
+        margin-top: -50px;
+        color: black;
+    }
+}

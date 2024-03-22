@@ -1,0 +1,66 @@
+.container-profile{
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    width: 70vw;
+}
+.profile-image{
+    border-radius: 80px;
+    height: 80px;
+    width: 80px;
+}
+.count-section{
+    border-right: 2px solid #c3c3c3;
+}
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+.custom-btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 14px; 
+}
+.card-img-top{
+    height: 16rem;
+    border-radius: 15px;
+}
+.card-profile{
+    margin-top: -40px;
+}
+.upload-box{
+    height: 300px;
+    width: 350px;
+    border: 4px dotted gray;
+    border-radius: 10px;
+}
+.dropZoneOverlay{
+    color: #7066fb;
+    margin-top: -160px;
+    margin-left: -60px;
+    border-radius: 20px;
+}
+.dropZoneContainer{
+    margin-left: 65px;
+    margin-top: 130px;
+}
+.fileUpload{
+    opacity: 0;
+    z-index: 1;
+}
+.drop-upload{
+    height: 280px;
+    width: 300px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 450px){
+    .container{
+        width: 100vw;
+    }
+    .custom-btn-white{
+        margin-top: 20px;
+    }
+    .profile-responsive{
+        margin-top: 10px;
+    }
+}

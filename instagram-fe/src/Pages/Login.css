@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/207253/pexels-photo-207253.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.container{
+    margin-top: 8rem;
+}
+.card-body{
+background-color: grey;
+}
+
+.instagram1{
+    margin-top: 70px;
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+    border-radius:25px;
+}
+.card{
+    margin-top: 60px;
+}
+.btn-dark{
+    align-items: center;
+}
+.login-text{
+    color: blue;
+}
+.btn-login, .btn-signup{
+    margin-left: 320px
+}
+@media only screen and (max-width: 450px){
+    .instagram1{
+        margin-left: 40px;
+        margin-top: -100px;
+        width: 150px;
+        height: 150px;
+    }
+    .btn-login, .btn-signup{
+        margin-left: 120px;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .instagram1{
+        margin-left: 100px;
+        margin-top: -70px;
+        width: 150px;
+        height: 150px;
+    }
+    .btn-login, .btn-signup{
+        margin-left: 120px;
+    }
+    .card{
+        margin-top: 40px;
+    }
+}
